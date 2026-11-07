@@ -7,6 +7,9 @@ import subprocess
 import sys
 
 MODEL_PATH = os.environ.get('WLL_TOKENIZER_PATH', '')
+PYTHON_PATH = sys.executable
+SSH = ('ssh', '-o', 'BatchMode=yes', '-o', 'ConnectTimeout=8', '-o',
+       'ServerAliveInterval=10', '-o', 'ServerAliveCountMax=2', '4090')
 TOKENIZER_SHA256 = {
     'tokenizer_config.json': 'b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27',
     'merges.txt': 'a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d',

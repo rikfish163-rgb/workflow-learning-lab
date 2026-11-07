@@ -1,0 +1,15 @@
+{
+  "hostname": "amax",
+  "gpu_index": 9,
+  "gpu_uuid": "GPU-4fc78635-e0b9-1acf-774f-9debcfc7fa47",
+  "allowed_gpus": {
+    "8": "GPU-ecc8cd45-fdaa-b5ee-e54a-bf2ef7df8f82",
+    "9": "GPU-4fc78635-e0b9-1acf-774f-9debcfc7fa47"
+  },
+  "idle_seconds": 180,
+  "poll_seconds": 15,
+  "max_poll_gap_seconds": 35,
+  "max_used_mib": 128,
+  "max_utilization_percent": 1,
+  "minimum_free_mib": 22528
+}
